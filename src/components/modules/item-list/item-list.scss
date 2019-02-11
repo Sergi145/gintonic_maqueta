@@ -1,0 +1,57 @@
+item-list {
+    .card {
+        box-shadow: 0 1px 6px 0 #d8d4d0;
+
+        img {
+            width: 100px;
+            height: 110px;
+        }
+
+        span {
+            font-size: 14px;
+            position: absolute;
+            left: 88px;
+            top: 20px;
+        }
+
+        h2 {
+            position: absolute;
+            font-size: 16px;
+            left: 88px;
+            top: 40px;
+        }
+
+        .icons {
+            top: 69px;
+            left: 87px;
+            position: absolute;
+            
+            i {
+                margin-right: 5px;
+                color:#4C2C69;
+                cursor: pointer;
+
+                &:first-child {
+                    color: #D1C23A;
+                }
+
+                &:last-child {
+                    color: #D13A47;
+                }
+            }
+        }
+
+        .fa-chevron-down {
+            position: absolute;
+            right: 0;
+            font-size: 24px;
+            margin-right: 20px;
+            margin-top: 14px;
+            cursor: pointer;
+        }
+
+        p {
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+}
