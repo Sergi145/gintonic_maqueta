@@ -1,0 +1,27 @@
+//========================================
+// Custom variables
+//========================================
+
+// Project name abbreviation for components
+$project: app;
+
+// Routes
+$url-img: '/../assets/img';
+$url-fonts: '/../assets/fonts';
+
+// Transition
+$fast: .15s;
+$medium: .3s;
+$slow: .5s;
+
+// Fonts
+$font-size-basic: 16;
+
+//========================================
+// Override variables
+//========================================
+
+$navbar-default-toggle-hover-bg:           #ddd !default;
+$navbar-default-toggle-icon-bar-bg:        #888 !default;
+$navbar-default-toggle-border-color:       #ddd !default;
+
