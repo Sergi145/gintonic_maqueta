@@ -13,6 +13,7 @@ module.exports = {
         index: './src/views/index.js',
         public: './src/views/public/public.js',
         gintonic: './src/views/gintonic/gintonic.js',
+        guideline: './src/views/guideline/guideline.js',
         
     },
     output: {
@@ -103,6 +104,13 @@ module.exports = {
             filename: 'gintonic/index.html',
             description: 'This is my public page',
             chunks: ['gintonic']
+        }),
+        new HtmlWebpackPlugin({
+            title: 'guideline page',
+            template: './src/views/guideline/guideline.hbs',
+            filename: 'guideline/index.html',
+            description: 'This is my guideline page',
+            chunks: ['guideline']
         }),
     ],
     devServer: {
