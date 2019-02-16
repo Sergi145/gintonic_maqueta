@@ -11,9 +11,9 @@ module.exports = {
     context: path.resolve(__dirname),
     entry: {
         index: './src/views/index.js',
-        public: './src/views/public/public.js',
         gintonic: './src/views/gintonic/gintonic.js',
         guideline: './src/views/guideline/guideline.js',
+        listitems: './src/views/list-items/list-items.js',
         
     },
     output: {
@@ -93,10 +93,10 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: 'public page',
-            template: './src/views/public/public.hbs',
-            filename: 'public/index.html',
+            template: './src/views/list-items/list-items.hbs',
+            filename: 'list-items/index.html',
             description: 'This is my public page',
-            chunks: ['public']
+            chunks: ['listitems']
         }),
         new HtmlWebpackPlugin({
             title: 'public page',
