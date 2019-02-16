@@ -1,10 +1,10 @@
 footer {
-    background-color: black;
+    background-color: $black;
 
     .input-group {            
         position: fixed;
         bottom: 0;
-        background-color: black;
+        background-color: $black;
         z-index: 2;
         border-top: 2px solid #BFBBBB;
 
@@ -22,12 +22,12 @@ footer {
         
         i {
             font-size: 20px;
-            color: white;
+            color:$white;
         }
 
         span {
                 font-size: 12px;
-                color: white;   
+                color:$white;   
         }    
     }
 }
