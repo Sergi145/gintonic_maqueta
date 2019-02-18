@@ -28,9 +28,11 @@
         $('.navbar-toggler').click(function(){    
             if(cont == 1){
                 nav.animate({
-                    left:'0'
+                    left:'0',
                     
                 });
+                 $('.container').css('position', 'fixed');
+             
                 cont=0;
             }
             else {
@@ -38,6 +40,7 @@
                 nav.animate({
                     left:'-100%'
                 });
+                   $('.container').css('position', 'initial');
             }
         })
     };
