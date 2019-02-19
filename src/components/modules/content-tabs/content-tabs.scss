@@ -1,0 +1,27 @@
+content-tabs {
+    ul {
+        .nav-item {
+            text-align: center;
+
+             .nav-link {
+                background-color: $black; 
+                color: $white;
+               
+                &:hover {
+                    border: 1px solid $danger;
+                    border-bottom: 1px solid transparent;
+                    transition: .4s;
+                    color: $danger;
+                }
+
+                &.active {
+                    background-color: #F8F9FA;
+                    color: $black;
+                    text-decoration: underline;
+                    border-color: #b8bec3;
+                    border-bottom: 1px solid transparent;
+                }
+             }
+        }
+    }
+}
